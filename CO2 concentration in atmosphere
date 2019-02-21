@@ -1,0 +1,16 @@
+Context
+The carbon dioxide record from Mauna Loa Observatory, known as the “Keeling Curve,” is the world’s longest unbroken record of atmospheric carbon dioxide concentrations. Scientists make atmospheric measurements in remote locations to sample air that is representative of a large volume of Earth’s atmosphere and relatively free from local influences.
+
+Content
+This dataset includes a monthly observation of atmospheric carbon dioxide (or CO2) concentrations from the Mauna Loa Observatory (Hawaii) at a latitude of 19.5, longitude of -155.6, and elevation of 3397 meters.
+
+Columns 1-3: Provide the date in the following redundant formats: year, month and decimal date
+Column 4: Monthly CO2 concentrations in parts per million (ppm) measured on the 08A calibration scale and collected at 24:00 hours on the fifteenth of each month.
+Column 5: The fifth column provides the same data after a seasonal adjustment, which involves subtracting from the data a 4-harmonic fit with a linear gain factor to remove the seasonal cycle from carbon dioxide measurements
+Column 6: The sixth column provides the data with noise removed, generated from a stiff cubic spline function plus 4-harmonic functions with linear gain
+Column 7: The seventh column is the same data with the seasonal cycle removed.
+Acknowledgements
+The carbon dioxide data was collected and published by the University of California's Scripps Institution of Oceanography under the supervision of Charles David Keeling with support from the US Department of Energy, Earth Networks, and the National Science Foundation.
+
+Inspiration
+How have atmospheric carbon dioxide levels changed in the past sixty years? How do carbon dioxide concentrations change seasonally? What do you think causes this seasonal cycle? When will the carbon dioxide levels exceed 450 parts per million?
